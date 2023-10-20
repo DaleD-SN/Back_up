@@ -57,4 +57,4 @@ wget https://raw.githubusercontent.com/ServiceNowEvents/HZ-MakeFarm-Scripts/main
 wget https://raw.githubusercontent.com/ServiceNowEvents/HZ-MakeFarm-Scripts/main/CNC/code/cli_name_generator/mkname.sh?token=GHSAT0AAAAAACIRD3LZ7CRYI7W3NMDZMSEKZI74Y6Q -O ~/mkname.sh
 sudo chmod ugo+rwx ./mkname.sh
 sudo sed -i 's/OUTPUT=\/home\/pi\/out.gcode/OUTPUT=\/home\/makefarm\/out.gcode/' /home/makefarm/mkname.sh
-sudo ~/mkname.sh
+cd ~; ./mkname.sh
